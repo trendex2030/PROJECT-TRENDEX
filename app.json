@@ -1,9 +1,9 @@
 
 {
-    "name": "TRENDEX",
+    "name": "TREND-X session",
     "description": "WE LEAD OTHERS COPY",
     "logo": "image url",
-    "repository": "https://github.com/trendex2030/TRENDEX",
+    "repository": "https://github.com/trendex2030/TREND-X session",
     "keywords": ["Bravin-Tech"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
