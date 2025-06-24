@@ -1,5 +1,5 @@
 {
-  "description": "session name",
+  "description": "TREND-X session",
   "main": "./malvin.js",
   "type": "commonjs",
   "engines": {
@@ -10,7 +10,7 @@
     "stop": "pm2 stop malvin",
     "restart": "pm2 restart malvin"
   },
-  "author": "Malvin Tech",
+  "author": "TRENDEX Tech",
   "license": "GPL-3.0 license",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.7",
