@@ -1,10 +1,10 @@
 
 {
-    "name": "session name",
-    "description": "Web Session Generator",
+    "name": "TRENDEX",
+    "description": "WE LEAD OTHERS COPY",
     "logo": "image url",
-    "repository": "https://github.com/username/sesssion name",
-    "keywords": ["Malvin-Tech"],
+    "repository": "https://github.com/trendex2030/TRENDEX",
+    "keywords": ["Bravin-Tech"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
