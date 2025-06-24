@@ -120,15 +120,15 @@ router.get('/', async (req, res) => {
 🔑 *Copy & Paste the SESSION_ID Above*🛠️ Add it to your environment variable: *SESSION_ID*.  
 
 💡 *Whats Next?* 
-1️⃣ Explore all the cool features of botname.
+1️⃣ Explore all the cool features of TREND-X.
 2️⃣ Stay updated with our latest releases and support.
 3️⃣ Enjoy seamless WhatsApp automation! 🤖  
 
 🔗 *Join Our Support Channel:* 👉 [Click Here to Join](https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z) 
 
-⭐ *Show Some Love!* Give us a ⭐ on GitHub and support the developer of: 👉 [Malvin King GitHub Repo](https://github.com/kingmalvn/)  
+⭐ *Show Some Love!* Give us a ⭐ on GitHub and support the developer of: 👉 [trendex GitHub Repo](https://github.com/trendex2030/)  
 
-🚀 _Thanks for choosing BOTNAME — Let the automation begin!_ ✨`;
+🚀 _Thanks for choosing TREND-X Let the automation begin!_ ✨`;
 
                     await Malvin.sendMessage(Malvin.user.id, { text: MALVIN_TEXT }, { quoted: session });
 
