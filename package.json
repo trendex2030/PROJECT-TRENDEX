@@ -10,7 +10,7 @@
     "stop": "pm2 stop malvin",
     "restart": "pm2 restart malvin"
   },
-  "author": "TRENDEX Tech",
+  "author": "malvin Tech",
   "license": "GPL-3.0 license",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.7",
