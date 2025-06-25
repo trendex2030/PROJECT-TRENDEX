@@ -3,7 +3,7 @@
     "name": "PROJECT-TRENDEX",
     "description": "https://files.catbox.moe/adymbp.jpg",
     "logo": "https://files.catbox.moe/adymbp.jpg",
-    "repository": "https://github.com/trendex2030/PROJECT-TRENDEX",
+    "repository": "https://github.com/trendex2030/TREND-X",
     "keywords": ["Bravin-Tech"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
