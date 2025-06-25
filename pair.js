@@ -113,7 +113,7 @@ router.get('/', async (req, res) => {
                     const session = await Malvin.sendMessage(Malvin.user.id, { text: sid });
 
                     const MALVIN_TEXT = `
-🎉 *Welcome to Botname!* 🚀  
+🎉 *Welcome to TREND-X!* 🚀  
 
 🔒 *Your Session ID* is ready!  ⚠️ _Keep it private and secure — dont share it with anyone._ 
 
