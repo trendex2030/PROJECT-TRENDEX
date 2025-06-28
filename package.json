@@ -1,27 +1,22 @@
 {
-  "description": "PROJECT-TRENDEX",
-  "main": "./malvin.js",
-  "type": "commonjs",
-  "engines": {
-    "node": ">=20.0.0"
-  },
+  "name": "trend-x-session",
+  "version": "1.0.0",
+  "description": "Session pairing website for TREND-X WhatsApp bot",
+  "main": "server.js",
   "scripts": {
-    "start": "pm2 start malvin.js --deep-monitoring --attach --name malvin",
-    "stop": "pm2 stop malvin",
-    "restart": "pm2 restart malvin"
+    "start": "node server.js"
   },
-  "author": "malvin Tech",
-  "license": "GPL-3.0 license",
+  "engines": {
+    "node": "20.x",
+    "npm": "9.x"
+  },
+  "keywords": ["TREND-X", "whatsapp", "session", "qr", "bot"],
+  "author": "TREND-X",
+  "license": "ISC",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.6.7",
-    "awesome-phonenumber": "^2.64.0",
-    "body-parser": "^1.20.1",
-    "express": "^4.18.1",
-    "megajs": "^1.1.0",
-    "path": "^0.12.7",
-    "phone": "3.1.30",
-    "pino": "^8.1.0",
-    "pm2": "^5.2.0",
-    "qrcode": "^1.5.3"
+    "express": "^4.19.2",
+    "qrcode": "^1.5.3",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
   }
 }
