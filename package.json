@@ -1,22 +1,40 @@
 {
-  "name": "trend-x-session",
+  "name": "TREND-X",
   "version": "1.0.0",
-  "description": "Session pairing website for TREND-X WhatsApp bot",
+  "description": "TREND-X WhatsApp Bot by Trendex",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["whatsapp", "bot", "TREND-X", "baileys"],
+  "author": "Trendex",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^8.17.2",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "human-readable": "^0.2.1",
+    "jimp": "^0.22.10",
+    "moment-timezone": "^0.5.44",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "perf_hooks": "^0.0.1",
+    "qrcode": "^1.5.3",
+    "util": "^0.12.5",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   },
   "engines": {
-    "node": "20.x",
-    "npm": "9.x"
-  },
-  "keywords": ["TREND-X", "whatsapp", "session", "qr", "bot"],
-  "author": "TREND-X",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.19.2",
-    "qrcode": "^1.5.3",
-    "dotenv": "^16.4.5",
-    "cors": "^2.8.5"
+    "node": ">=18.0.0"
   }
 }
