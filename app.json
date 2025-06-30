@@ -1,24 +1,23 @@
+
 {
-  "name": "TREND-X",
-  "description": "Advanced WhatsApp Bot by Trendex",
-  "repository": "https://github.com/trendex2030/TREND-X",
-  "logo": "https://i.imgur.com/placeholder.png",
-  "keywords": ["whatsapp", "bot", "baileys", "TREND-X"],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "basic"
-    }
-  },
-  "env": {
-    "NODE_ENV": {
-      "description": "Node environment",
-      "value": "production"
-    }
-  }
+    "name": "PROJECT-TRENDEX",
+    "description": "Web Session Generator",
+    "logo": "image url",
+    "repository": "https://github.com/trendex2030/PROJECT-TRENDEX",
+    "keywords": ["Malvin-Tech"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
+
 }
